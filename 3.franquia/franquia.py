@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("Previsão Inicial de Custo Para Franquia")
 
-dados = pd.read_csv("slr12.csv", sep=";")
+dados = pd.read_csv("3.franquia/slr12.csv", sep=";")
 
 X = dados[['FrqAnual']]
 y = dados['CusInic']

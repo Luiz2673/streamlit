@@ -12,7 +12,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data_and_model():
-    carros = pd.read_csv("car.csv",sep=",")
+    carros = pd.read_csv("4.QualidadeVeiculos/car.csv",sep=",")
     encoder = OrdinalEncoder()
 
     for col in carros.columns.drop('class'):
